@@ -9,7 +9,6 @@ CREATE TABLE Products1 (
     Name VARCHAR(50),
     PRIMARY KEY (ID)
 ) ENGINE=InnoDB;
-CREATE INDEX Name1 ON Products1 (Name);
 
 -- Create test data in Products1 table 
 INSERT INTO Products1 (Name)
